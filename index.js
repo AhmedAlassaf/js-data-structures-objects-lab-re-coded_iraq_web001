@@ -2,7 +2,7 @@
 const driver = {}
 
 function udateDriverWithKeyAndValue(driver, key, value){
-  const driver2 = { ...driver };
-  driver2[key] = value;
-  return driver2
+  const newDriver = { ...driver };
+  newDriver[key] = value;
+  return newDriver;
 }
